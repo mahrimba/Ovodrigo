@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/style.css">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    </head>
+    <body>
+        <div class="tamagotchi">
+            <creature>
+                <img class="creature animate__animated" src="/imgs/creature.png">
+            </creature>
+            <needsBar>
+                <div class="needsbar">
+                    <h2>Hunger</h2>
+                    <div class="meter" id="hungerMeter">
+                        <div class="meterFill" id="hungerMeterFill"></div>
+                    </div>
+                </div>
+                <br>
+                <div class="needsbar">
+                    <h2>Care</h2>
+                    <div class="meter" id="careMeter">
+                        <div class="meterFill" id="careMeterFill"></div>
+                    </div>
+                </div>
+                <br>
+                <div class="needsbar">
+                    <h2>Hygiene</h2>
+                    <div class="meter" id="hygieneMeter">
+                        <div class="meterFill" id="hygieneMeterFill"></div>
+                    </div>
+                </div>
+
+            </needsBar>
+            <buttons>
+                <img src="/imgs/food.png" class="needsButton" id="feedCreature"></img>
+                <img src="/imgs/care.png" class="needsButton" id="careCreature"></img>
+                <img src="/imgs/wash.png" class="needsButton" id="cleanCreature"></img>
+            </buttons>
+        </div>
+
+
+        <script src="/script.js"></script>
+    </body>
+</html>
