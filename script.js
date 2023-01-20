@@ -63,7 +63,7 @@ function moveHungerBar() {
         function frame() {
             if (widthHunger == 0) {
                 i = 0;
-                creature.src=`/imgs/RIP.png`;
+                creature.src=`./imgs/RIP.png`;
                 isDead();
             } else {
                 widthHunger--;
@@ -81,7 +81,7 @@ function moveCareBar() {
         function frame() {
             if (widthCare == 0) {
                 i = 0;
-                creature.src=`/imgs/RIP.png`;
+                creature.src=`./imgs/RIP.png`;
                 isDead();
             } else {
                 widthCare--;
@@ -99,7 +99,7 @@ function moveHygieneBar() {
         function frame() {
             if (widthHygiene == 0) {
                 i = 0;
-                creature.src=`/imgs/RIP.png`;
+                creature.src=`./imgs/RIP.png`;
                 isDead();
             } else {
                 widthHygiene--;
