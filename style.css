@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Gameboy";
-    src: url(/src/Early\ GameBoy.ttf);
+    font-family: "Gameboy", monospace;
+    src: url(./src/GameBoy.ttf);
 }
 
 needsBar {
